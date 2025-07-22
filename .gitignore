@@ -1,0 +1,17 @@
+    
+# Dependency directories
+node_modules/
+
+# dotenv environment files
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS junk
+.DS_Store
+
+# Editor swap files
+*.swp
