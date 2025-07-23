@@ -9,6 +9,7 @@ const mongoose = require("mongoose");
 const app = express();
 app.use(express.json());
 
+
 // Load your Student model
 const Student = require("./studentModel");
 
