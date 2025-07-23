@@ -1,13 +1,12 @@
 // setting up the server
 const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 8000;
 
 app.use(express.json());
 
 
 // setting up database and asking the app to listen
-const MONGODB_URL = "mongodb+srv://mirea:mireaa@cluster0.1xt2k2j.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
 const mongoose = require("mongoose");
 mongoose.connect (MONGODB_URL)
 .then (()=>{
